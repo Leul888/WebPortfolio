@@ -54,9 +54,10 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "AI Engineer",
+    icon: backend,
   },
+  
 ];
 
 const technologies = [
@@ -72,194 +73,175 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
+  
+  
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+ 
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "AI Engineer Intern",
+    company_name: "Radical AI",
+    icon: mobile,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2024 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed an AI-powered tutoring platform using Langchain, ChromaDB, and Streamlit.",
+      "Implemented NLP models to personalize user experience and improve engagement.",
+      "Collaborated with cross-functional teams to deploy and optimize ML models in production.",
+      "Achieved 25% faster query response times compared to traditional systems.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Data Entry Manager Intern",
+    company_name: "Sodexo",
+    icon: mobile,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2023 - February 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Automated data workflows using Python, reducing manual effort by over 10 hours/week.",
+      "Implemented data quality control checks, lowering error rates by 15%.",
+      "Ensured high data integrity for downstream analytics and reporting systems.",
+      "Managed internal data tools and collaborated with administrative teams for reporting.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full Stack Developer (Project)",
+    company_name: "StockTrack Pro",
+    icon: mobile,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2024 - Apr 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built an inventory management system with React, JavaScript, and Agile practices.",
+      "Implemented user authentication, search/filter features, and responsive UI design.",
+      "Improved inventory efficiency by 30% and reduced manual errors by 20%.",
+      "Collaborated with a cross-functional team to deliver a scalable web solution.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "3D Website Developer (Project)",
+    company_name: "Portfolio",
+    icon: mobile,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Ongoing",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed an interactive 3D website using React, Three.js, and Tailwind CSS.",
+      "Achieved 15% faster load times and 90% user satisfaction through optimization and testing.",
+      "Integrated animations and dynamic visuals to enhance user engagement.",
+      "Continuously improving site performance and responsiveness across devices.",
     ],
   },
 ];
+
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Leul brought our tutoring platform idea to life with AI integration that exceeded expectations. The project was delivered ahead of time and with impressive attention to detail.",
+    name: "Project Supervisor",
+    designation: "AI Engineer",
+    company: "Radical AI",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Leul's work on our inventory system dramatically improved our operations. His UI was sleek, and his logic handled our complex needs smoothly.",
+    name: "Team Member",
+    designation: "Project Collaborator",
+    company: "StockTrack Pro",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Leul's 3D website design pushed the limits of web interactivity. It’s rare to see such technical skill paired with a strong design sense.",
+    name: "Professor Johnson",
+    designation: "Faculty Advisor",
+    company: "Dakota State University",
+    image: "https://randomuser.me/api/portraits/men/36.jpg",
   },
 ];
 
-const projects = [
-  {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-];
+
+  
+  const projects = [
+    {
+      name: "AI-Powered Tutoring Platform",
+      description:"A smart tutoring system built with Langchain, ChromaDB, and Streamlit that uses NLP to personalize user interactions and reduce query response times by 25%.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "strealit",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image:web ,
+      source_code_link: "https://github.com/Leul888",
+    },
+    {
+      name: "StockTrack Pro",
+      description:
+        "Inventory management system built using JavaScript and React to streamline operations, improve efficiency by 30%, and reduce manual errors by 20%.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "agile",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mobile,
+      source_code_link: "https://github.com/Leul888", 
+    },
+    {
+      name: "Library Management System",
+      description:
+        "A desktop application developed in C# to manage library inventory, member records, book check-ins/outs, and due date tracking for improved operational efficiency.",
+      tags: [
+        {
+          name: "csharp",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "windowsforms",
+          color: "green-text-gradient",
+        },
+        {
+          name: "desktopapp",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: web, 
+      source_code_link: "https://github.com/Leul888",
+    }
+  
+  ];
+  
+
 
 export { services, technologies, experiences, testimonials, projects };
